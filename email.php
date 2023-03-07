@@ -23,7 +23,9 @@ $title ='Kirim Email';
 include 'layout/header.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
+
 //Load Composer's autoloader
+
 require 'vendor/autoload.php';
 $mail = new PHPMailer(true);
 
